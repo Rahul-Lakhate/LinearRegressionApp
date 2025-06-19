@@ -1,0 +1,2 @@
+import pickle
+pickle.dump(model, open("titanic_model.pkl", "wb"))
